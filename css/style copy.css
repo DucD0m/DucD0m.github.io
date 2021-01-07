@@ -8,11 +8,13 @@ html, body{
 }
 
 header{
-  background-color: #444444;
+  background-image: url("../img/Valle_1-1454355269.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: lightgrey;
   width: 100vw;
-  height: 20vh;
-  text-align: center;
-  border-bottom: solid #000000 0.5vh;
+  height: 40vh;
+  text-align: right;
 }
 
 header p{
@@ -21,13 +23,13 @@ header p{
   font-size: 1em;
   position: relative;
   bottom: 25px;
-  color: #f0f0f0;
 }
 
 h1{
   position: relative;
-  top: 14vh;
-  color: #f0f0f0;
+  top: 250px;
+  right: 5vw;
+  color: #cccccc;
 }
 
 h2{
@@ -112,42 +114,17 @@ footer{
   clear: both;
 }
 
-/*@media screen and (min-width: 768px){
-
-  header p{
-    font-size: 1.5em;
-  }
-
-  h1{
-    top: 47vh;
-    right: 5vw;
-    color: #cccccc;
-  }
-}*/
-
-@media screen and (min-width: 992px){
-
+@media screen and (min-width: 768px){
   header{
-    background-image: url("../img/Valle_1-1454355269.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-color: lightgrey;
-    width: 100vw;
     height: 55vh;
-    text-align: right;
   }
 
   header p{
-    padding-right: 3%;
     font-size: 1.5em;
-    position: relative;
-    bottom: 25px;
   }
 
   h1{
-    position: relative;
-    right: 5vw;
-    top: 49vh;
+    top: 350px;
   }
 
   nav{
@@ -192,9 +169,10 @@ footer{
   }
 }
 
-@media screen and (min-width: 1200px){
+
+@media screen and (min-width: 992px){
   header{
-    height: 75vh;
+    height: 65vh;
   }
 
   header p{
@@ -202,7 +180,16 @@ footer{
   }
 
   h1{
-    top: 69vh;
-    font-size: 2.5em;
+    top: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  header{
+    height: 90vh;
+  }
+
+  h1{
+    top: 630px;
   }
 }
