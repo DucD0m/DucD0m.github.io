@@ -1,0 +1,195 @@
+*{
+  margin:0%;
+  padding:0%;
+}
+
+html, body{
+  background-color: #f0f0f0;
+}
+
+header{
+  background-image: url("../img/Valle_1-1454355269.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: lightgrey;
+  width: 100vw;
+  height: 40vh;
+  text-align: right;
+}
+
+header p{
+  padding-right: 3%;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+  position: relative;
+  bottom: 25px;
+}
+
+h1{
+  position: relative;
+  top: 250px;
+  right: 5vw;
+  color: #cccccc;
+}
+
+h2{
+  display: inline-block;
+  margin: 2%;
+}
+
+h3{
+  position: relative;
+  left: 3%;
+  top: 3%;
+}
+
+nav{
+  width: 100vw;
+  height: 48vh;
+  background-color: darkred;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 1vh;
+  text-decoration: none;
+  line-height: 5vh;
+  height: 6vh;
+  overflow: hidden;
+}
+
+nav a:hover{
+  background-color: #444444;
+  height: 12vh;
+  /*transition: height 0.5s;*/
+  overflow: visible;
+}
+
+.active{
+  border-left: solid #000000 15px;
+  padding-right: 15px;
+}
+
+hr {
+    width: 35px;
+    margin:0 auto;
+}
+
+.left{
+  float:left;
+}
+
+div p{
+  width: 90vw;
+  display: inline-block;
+  margin: 5%;
+  text-align: justify;
+}
+
+iframe{
+  width: 95vw;
+  height: 35vh;
+  margin: 2%;
+  background-color: #000000;
+}
+
+.videos{
+  background-color: lightgrey;
+  height: 90%;
+  padding-top: 2%;
+}
+
+footer{
+  background-color: #444444;
+  height: 30vh;
+  margin-top: 0vh;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+  line-height: 5vh;
+  color: #f0f0f0;
+  clear: both;
+}
+
+@media screen and (min-width: 768px){
+  header{
+    height: 55vh;
+  }
+
+  header p{
+    font-size: 1.5em;
+  }
+
+  h1{
+    top: 350px;
+  }
+
+  nav{
+    width: 20vw;
+    height: 108vh;
+  }
+
+  nav a {
+    padding-top: 3vh;
+    line-height: 10vh;
+    height: 11vh;
+  }
+
+  nav a:hover{
+    height: 22vh;
+  }
+
+  div p{
+    width: 70vw;
+    display: inline-block;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  section{
+    height: 108vh;
+  }
+
+  iframe{
+    width: 29vw;
+    height: 28vh;
+    margin: 5vw;
+  }
+
+  .videos{
+    background-color: lightgrey;
+    height: 45vh;
+  }
+
+  footer{
+    height: 20vh;
+  }
+}
+
+
+@media screen and (min-width: 992px){
+  header{
+    height: 65vh;
+  }
+
+  header p{
+    font-size: 2em;
+  }
+
+  h1{
+    top: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  header{
+    height: 90vh;
+  }
+
+  h1{
+    top: 630px;
+  }
+}
