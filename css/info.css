@@ -1,0 +1,175 @@
+*{
+  margin:0%;
+  padding:0%;
+}
+
+html, body{
+  background-color: #f0f0f0;
+}
+
+header{
+  text-align: right;
+  height: 45vh;
+}
+
+.blurred{
+  background-image: url("../img/3422177220_cc3956f546_o.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: lightgrey;
+  width: 100vw;
+  height: 45vh;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  opacity: 0.5;
+}
+
+header p{
+  padding-right: 3%;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+}
+
+h1{
+  height: 15vh;
+  width: 60%;
+  position: relative;
+  transform: translate(0,-250%);
+  left: 20%;
+  text-align: center;
+  color: #000000;
+  border: solid #000000 5px;
+  /*border-radius: 25px;*/
+  font-size: 1.2em;
+  z-index: 2;
+}
+
+h2{
+  display: inline-block;
+  margin: 2%;
+}
+
+nav{
+  width: 100vw;
+  height: 55vh;
+  background-color: darkred;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 1vh;
+  text-decoration: none;
+  line-height: 5vh;
+  height: 6vh;
+  overflow: hidden;
+}
+
+nav a:hover{
+  background-color: #444444;
+  height: 12vh;
+  /*transition: height 0.5s;*/
+  overflow: visible;
+}
+
+.left{
+  float:left;
+}
+
+div p{
+  width: 90vw;
+  display: inline-block;
+  margin: 5%;
+  text-align: justify;
+}
+
+iframe{
+  width: 95vw;
+  height: 40vh;
+  margin: 2%;
+}
+
+.videos{
+  background-color: lightgrey;
+  height: 90vh;
+}
+
+footer{
+  background-color: #444444;
+  height: 15vh;
+  margin-top: 0vh;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+  line-height: 8vh;
+  color: #f0f0f0;
+  clear: both;
+}
+
+@media screen and (min-width: 750px){
+  header{
+    height: 450px;
+  }
+
+  h1{
+    top: 350px;
+  }
+
+  nav{
+    width: 20vw;
+    height: 113vh;
+  }
+
+  nav a {
+    padding-top: 1vh;
+    line-height: 10vh;
+    height: 11vh;
+  }
+
+  nav a:hover{
+    height: 22vh;
+  }
+
+  div p{
+    width: 70vw;
+    display: inline-block;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  iframe{
+    width: 35vw;
+    height: 30vh;
+    margin: 2vw;
+  }
+
+  .videos{
+    background-color: lightgrey;
+    height: 45vh;
+  }
+
+
+@media screen and (min-width: 900px){
+  header{
+    height: 550px;
+  }
+
+  header p{
+    font-size: 2em;
+  }
+
+  h1{
+    top: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  header{
+    height: 730px;
+  }
+
+  h1{
+    top: 630px;
+  }
+}
