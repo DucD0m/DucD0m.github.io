@@ -10,7 +10,7 @@ html, body{
 header{
   background-color: #444444;
   width: 100vw;
-  height: 20vh;
+  height: 50vh;
   text-align: center;
   border-bottom: solid #000000 0.5vh;
 }
@@ -18,16 +18,15 @@ header{
 header p{
   padding-right: 3%;
   font-family: 'Courier New', monospace;
-  font-size: 1em;
-  position: relative;
-  bottom: 25px;
+  font-size: 2em;
   color: #f0f0f0;
 }
 
 h1{
   position: relative;
-  top: 14vh;
+  top: 35vh;
   color: #f0f0f0;
+  font-size: 3em;
 }
 
 h2{
@@ -43,7 +42,7 @@ h3{
 
 nav{
   width: 100vw;
-  height: 48vh;
+  height: 80vh;
   background-color: darkred;
 }
 
@@ -51,18 +50,10 @@ nav a {
   display: block;
   color: white;
   text-align: center;
-  padding-top: 1vh;
+  padding-top: 1.5vh;
   text-decoration: none;
   line-height: 5vh;
-  height: 6vh;
-  overflow: hidden;
-}
-
-nav a:hover{
-  background-color: #444444;
   height: 12vh;
-  /*transition: height 0.5s;*/
-  overflow: visible;
 }
 
 .active{
@@ -93,7 +84,7 @@ iframe{
   background-color: #000000;
 }
 
-.videos{
+.media{
   background-color: lightgrey;
   height: 90%;
   padding-top: 2%;
@@ -125,7 +116,7 @@ footer{
   }
 }*/
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (orientation: landscape){
 
   header{
     background-image: url("../img/Valle_1-1454355269.jpg");
@@ -133,7 +124,7 @@ footer{
     background-size: 100vw;
     background-color: lightgrey;
     width: 100vw;
-    height: 55vh;
+    height: 65vh;
     text-align: right;
   }
 
@@ -147,7 +138,8 @@ footer{
   h1{
     position: relative;
     right: 5vw;
-    top: 49vh;
+    top: 55vh;
+    font-size: 2em;
   }
 
   nav{
@@ -159,10 +151,13 @@ footer{
     padding-top: 3vh;
     line-height: 10vh;
     height: 11vh;
+    overflow: hidden;
   }
 
   nav a:hover{
     height: 22vh;
+    overflow: visible;
+    background-color: #444444;
   }
 
   div p{
