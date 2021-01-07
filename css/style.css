@@ -157,7 +157,7 @@ footer{
 
   nav{
     width: 20vw;
-    height: 108vh;
+    height: 101vh;
   }
 
   nav a {
@@ -206,14 +206,14 @@ footer{
   }
 
   section{
-    height: 108vh;
+    height: 101vh;
   }
 }
 
 @media screen and (pointer: fine){
 
   header{
-    height: 40vh;
+    height: 45vh;
   }
 
   nav{
@@ -256,7 +256,7 @@ footer{
   }
 
   nav{
-    height: 108vh;
+    height: 101vh;
   }
 
   nav a {
