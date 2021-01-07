@@ -1,6 +1,7 @@
 *{
   margin:0%;
   padding:0%;
+  font-size: 110%;
 }
 
 html, body{
@@ -10,28 +11,31 @@ html, body{
 header{
   background-color: #444444;
   width: 100vw;
-  height: 50vh;
+  height: 25vh;
   text-align: center;
   border-bottom: solid #000000 0.5vh;
 }
 
 header p{
-  padding-right: 3%;
+  padding: 3%;
   font-family: 'Courier New', monospace;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #f0f0f0;
 }
 
 h1{
+  padding: 3%;
   position: relative;
-  top: 35vh;
+  bottom: 0vh;
   color: #f0f0f0;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h2{
   display: inline-block;
-  margin: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 1.5em;
 }
 
 h3{
@@ -50,7 +54,7 @@ nav a {
   display: block;
   color: white;
   text-align: center;
-  padding-top: 1.5vh;
+  padding-top: 3vh;
   text-decoration: none;
   line-height: 5vh;
   height: 12vh;
@@ -71,10 +75,10 @@ hr {
 }
 
 div p{
-  width: 90vw;
+  width: 94vw;
   display: inline-block;
-  margin: 5%;
-  text-align: justify;
+  margin: 3%;
+  line-height: 1.6;
 }
 
 iframe{
@@ -103,20 +107,31 @@ footer{
   clear: both;
 }
 
-/*@media screen and (min-width: 768px){
+@media screen and (orientation: landscape){
 
-  header p{
-    font-size: 1.5em;
+  header{
+    height: 60vh;
   }
 
-  h1{
-    top: 47vh;
-    right: 5vw;
-    color: #cccccc;
+  nav{
+    height: 200vh;
   }
-}*/
+
+  nav a{
+    height: 24vh;
+    padding-top: 8vh;
+  }
+
+  iframe{
+    height: 70vh;
+  }
+}
 
 @media screen and (min-width: 992px) and (orientation: landscape){
+
+  *{
+    font-size: 102%;
+  }
 
   header{
     background-image: url("../img/Valle_1-1454355269.jpg");
@@ -131,14 +146,12 @@ footer{
   header p{
     padding-right: 3%;
     font-size: 1.5em;
-    position: relative;
-    bottom: 25px;
+    bottom: 15vh;
   }
 
   h1{
-    position: relative;
     right: 5vw;
-    top: 55vh;
+    top: 35vh;
     font-size: 2em;
   }
 
@@ -147,35 +160,20 @@ footer{
     height: 108vh;
   }
 
-  /*nav a {
-    padding-top: 3vh;
-    line-height: 10vh;
-    height: 11vh;
-    overflow: hidden;
-  }
-
-  nav a:hover{
-    height: 22vh;
-    overflow: visible;
-    background-color: #444444;
-  }*/
-
   nav a {
-    padding-top: 3vh;
+    padding-top: 5vh;
     line-height: 5vh;
     height: 12vh;
   }
 
-
   div p{
     width: 70vw;
+    height:
     display: inline-block;
-    margin: 5%;
-    text-align: justify;
   }
 
   section{
-    height: 108vh;
+    height: 101vh;
   }
 
   iframe{
@@ -184,9 +182,9 @@ footer{
     margin: 5vw;
   }
 
-  .videos{
+  .media{
     background-color: lightgrey;
-    height: 45vh;
+    height: 75vh;
   }
 
   footer{
@@ -204,15 +202,26 @@ footer{
   }
 
   h1{
-    top: 69vh;
     font-size: 2.5em;
+  }
+
+  section{
+    height: 108vh;
   }
 }
 
 @media screen and (pointer: fine){
 
+  header{
+    height: 40vh;
+  }
+
+  nav{
+    height: 101vh;
+  }
+
   nav a {
-    padding-top: 3vh;
+    padding-top: 4vh;
     line-height: 10vh;
     height: 11vh;
     overflow: hidden;
@@ -222,5 +231,37 @@ footer{
     height: 22vh;
     overflow: visible;
     background-color: #444444;
+  }
+}
+
+@media screen and (pointer: fine) and (min-width: 992px){
+
+  header{
+    height: 65vh;
+  }
+}
+
+@media screen and (pointer: fine) and (orientation: landscape) and (min-width: 1200px){
+
+  header{
+    height: 75vh;
+  }
+
+  header p{
+    font-size: 2em;
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+
+  nav{
+    height: 108vh;
+  }
+
+  nav a {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    height: 11vh;
   }
 }
