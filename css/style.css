@@ -90,6 +90,13 @@ iframe, img{
   background-color: #000000;
 }
 
+/*#img1{
+  width: 35vw;
+  height: 21vw;
+  margin: 2%;
+  background-color: #000000;
+}*/
+
 img{
   border: solid #444444 3px;
 }
@@ -255,6 +262,8 @@ footer{
     border-radius: 25px;
     margin-top: 3vh;
   }
+
+
 }
 
 @media screen and (pointer: fine){
@@ -327,4 +336,25 @@ footer{
     border-radius: 25px;
     margin-top: 3vh;
   }
+}
+
+#reset{
+  background-color: #000000;
+  color: #f0f0f0;
+  width: 50px;
+  height: 50px;
+  border: solid #8b0000 3px;
+  position: fixed;
+  top: 1vh;
+  left: 1vw;
+  margin: 0;
+  display: none;
+}
+
+#reset:hover{
+  background-color: #8b0000;
+  border-color: #000000;
+}
+
+#parent{
 }
