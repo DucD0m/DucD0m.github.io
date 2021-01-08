@@ -41,7 +41,9 @@ h2{
 h3{
   position: relative;
   left: 3%;
-  top: 3%;
+  top: 3%;*/
+  display: inline-block;
+  width: 90%;
 }
 
 nav{
@@ -83,7 +85,7 @@ div p{
 
 iframe, img{
   width: 95vw;
-  height: 35vh;
+  height: 71vw;
   margin: 2%;
   background-color: #000000;
 }
@@ -140,7 +142,7 @@ footer{
   }
 
   iframe, img{
-    height: 70vh;
+    height: 71vw;
   }
 }
 
