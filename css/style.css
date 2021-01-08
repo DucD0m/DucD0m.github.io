@@ -47,7 +47,7 @@ h3{
 nav{
   width: 100vw;
   height: 95vh;
-  background-color: darkred;
+  background-color: #8b0000;
 }
 
 nav a {
@@ -93,7 +93,7 @@ img{
 }
 
 button {
-  background-color: darkred;
+  background-color: #8b0000;
   color: #f0f0f0;
   width: 100vw;
   height: 12vh;
@@ -102,11 +102,11 @@ button {
 
 button:hover{
   background-color: #000000;
-  border-color: darkred;
+  border-color: #8b0000;
 }
 
 .media{
-  background-color: lightgrey;
+  background-color: #d3d3d3;
   height: 90%;
   padding-top: 2%;
 }
@@ -154,7 +154,7 @@ footer{
     background-image: url("../img/Valle_1-1454355269.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
-    background-color: lightgrey;
+    background-color: #444444;
     width: 100vw;
     height: 65vh;
     text-align: right;
@@ -167,7 +167,6 @@ footer{
   }
 
   h1{
-    right: 5vw;
     top: 35vh;
     font-size: 2em;
   }
@@ -199,26 +198,23 @@ footer{
   }
 
   img{
-    width: 29vw;
-    height: 28vh;
-    margin: 3vw 5vw 1vw 5vw;
+    /*width: 29vw;
+    height: 28vh;*/
+    width: 260px;
+    height: 195px;
+    margin: 3vw 60px 1vw 60px;
   }
 
   button {
-    width: 15vw;
-    height: 7.5vh;
-    margin-left: 32vw;
-    border: solid #444444 3px;
-    border-radius: 4vh;
-    margin-top: 3vh;
-  }
-
-  button:hover{
-    background-color: #444444;
+    width: 200px;
+    height: 50px;
+    margin-left: 295px;
+    border-radius: 25px;
+    margin-top: 10vh;
   }
 
   .media{
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     height: 75vh;
   }
 
@@ -242,6 +238,20 @@ footer{
 
   section{
     height: 101vh;
+  }
+
+  img{
+    width: 343px;
+    height: 258px;
+    margin: 3vw 60px 1vw 60px;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    margin-left: 370px;
+    border-radius: 25px;
+    margin-top: 3vh;
   }
 }
 
@@ -298,5 +308,21 @@ footer{
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     height: 11vh;
+  }
+
+  img{
+    /*width: 29vw;
+    height: 28vh;*/
+    width: 343px;
+    height: 258px;
+    margin: 3vw 60px 1vw 60px;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    margin-left: 370px;
+    border-radius: 25px;
+    margin-top: 3vh;
   }
 }
