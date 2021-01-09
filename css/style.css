@@ -90,15 +90,14 @@ iframe, img{
   background-color: #000000;
 }
 
-/*#img1{
-  width: 35vw;
-  height: 21vw;
-  margin: 2%;
-  background-color: #000000;
-}*/
-
 img{
   border: solid #444444 3px;
+}
+
+img:hover{
+  border: solid #000000 3px;
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 button {
@@ -112,6 +111,7 @@ button {
 button:hover{
   background-color: #000000;
   border-color: #8b0000;
+  cursor: pointer;
 }
 
 .media{
@@ -122,12 +122,12 @@ button:hover{
 
 footer{
   background-color: #444444;
-  height: 30vh;
+  height: 35vh;
   margin-top: 0vh;
   padding: 2%;
   text-align: center;
   font-family: 'Courier New', monospace;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 5vh;
   color: #f0f0f0;
   clear: both;
@@ -288,6 +288,12 @@ footer{
     overflow: visible;
     background-color: #444444;
   }
+
+  nav a:focus{
+    height: 22vh;
+    overflow: visible;
+    background-color: #444444;
+  }
 }
 
 @media screen and (pointer: fine) and (min-width: 992px){
@@ -354,7 +360,4 @@ footer{
 #reset:hover{
   background-color: #8b0000;
   border-color: #000000;
-}
-
-#parent{
 }
