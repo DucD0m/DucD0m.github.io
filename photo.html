@@ -41,17 +41,17 @@
             function enlargeImg(id) {
 
               if (window.matchMedia("(orientation: portrait)").matches) {
-                 alert("Please use landscape orientation")
+                 alert("Please use the landscape orientation.")
               }
 
               if (window.matchMedia("(orientation: landscape)").matches) {
                 img = document.getElementById(id);
                 but = document.getElementById("reset");
-                img.style.height = "100%";
+                img.style.height = "95%";
                 img.style.width ="auto";
                 img.style.overflow = "hidden";
-                img.style.border = "solid #000000"
-                img.style.borderWidth = "0 200px"
+                img.style.border = "solid #111111"
+                img.style.borderWidth = "50px 250px"
                 img.style.position = "fixed";
                 img.style.top = "50%";
                 img.style.left = "50%";
