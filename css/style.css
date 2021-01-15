@@ -50,6 +50,8 @@ nav{
   width: 100vw;
   height: 95vh;
   background-color: #8b0000;
+  position: relative;
+  z-index: 2;
 }
 
 a{
@@ -106,15 +108,18 @@ img:hover, img:focus{
   opacity: 0.9;
 }
 
-button {
+button, #button {
+  display: inline-block;
+  text-align: center;
   background-color: #8b0000;
   color: #f0f0f0;
   width: 100vw;
-  height: 12vh;
+  height: 8vh;
   border: solid #000000 3px;
+  line-height: 1.6;
 }
 
-button:hover{
+button:hover, #button:hover{
   background-color: #000000;
   border-color: #8b0000;
   cursor: pointer;
@@ -154,9 +159,9 @@ footer{
     padding-top: 8vh;
   }
 
-  iframe, img{
+  /*iframe, img{
     height: 71vw;
-  }
+  }*/
 }
 
 @media screen and (min-width: 992px) and (orientation: landscape){
@@ -220,7 +225,7 @@ footer{
     margin: 3vw 60px 1vw 60px;
   }
 
-  button {
+  button, #button {
     width: 200px;
     height: 50px;
     margin-left: 295px;
@@ -235,7 +240,7 @@ footer{
 
   #o21803{
     width: 65vw;
-    height: 62vh;
+    height: 60vh;
   }
 
   footer{
@@ -266,7 +271,7 @@ footer{
     margin: 3vw 60px 1vw 60px;
   }
 
-  button {
+  button, #button {
     width: 200px;
     height: 50px;
     margin-left: 370px;
@@ -344,7 +349,7 @@ footer{
     margin: 3vw 60px 1vw 60px;
   }
 
-  button {
+  button, #button {
     width: 200px;
     height: 50px;
     margin-left: 370px;
@@ -364,9 +369,14 @@ footer{
   left: 1vw;
   margin: 0;
   display: none;
+  z-index: 4;
 }
 
 #reset:hover{
   background-color: #8b0000;
   border-color: #000000;
+}
+
+#button{
+  margin-top: 0;
 }

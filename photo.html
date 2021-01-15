@@ -33,7 +33,6 @@
     <img src="img/IMG_1800.jpeg" title="Chic-Chocs" alt="Skiing Scenery Quebec Canada" onclick="enlargeImg(this.id)" id="img3">
     <img src="img/Polarstar.JPG" title="Polar Star Couloir" alt="Skiing Scenery Baffin Island Canada" onclick="enlargeImg(this.id)" id="img4">
     <button onclick="resetImg()" id="reset">X</button>
-    <button>More Pictures</button>
     </div>
   </section>
 
@@ -58,6 +57,7 @@
                 img.style.transform = "translate(-50%, -50%)";
                 img.style.margin = "0";
                 img.style.opacity = "1";
+                img.style.zIndex = "3";
                 but.style.display = "inline";
               }
             }

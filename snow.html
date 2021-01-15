@@ -6,8 +6,11 @@
   <!--<link rel="stylesheet" href="css/info.css">-->
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/4d2a9d3318.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+  <script src="js/jquery-Snowfall-master/src/jquery.snowfall.js"></script>
 </head>
 
+<!--<body onload="$.snowfall.start();">-->
 <body>
   <header>
     <p>Life is like skiing. The goal is to have a bunch of good runs before the sun sets.<br>Seth Godin</p>
@@ -26,18 +29,23 @@
     </nav>
   </section>
 
-  <section>
+  <section  onload="myFunction()">
     <h2 id="report">Snow Report</h2>
     <!--<div class="ots-widget"><iframe id="o73881" width="600" height="469" border="0" frameborder="0" scrolling="yes" src="https://www.onthesnow.com/widget/list?regionId=200&color=b&open=all"></iframe><p><a href="https://www.onthesnow.com/quebec/skireport.html" target="_blank">Powered by OnTheSnow.com</a></p></div>-->
     <!--<div class="ots-widget"><iframe id="o21803" width="900" height="469" border="0" frameborder="0" scrolling="yes" src="https://www.onthesnow.ca/widget/list?regionId=200&color=b&open=all"></iframe><p><a href="https://www.onthesnow.ca/quebec/skireport.html" target="_blank">Powered by OnTheSnow.com</a></p></div>-->
     <iframe id="o21803" src="https://www.onthesnow.ca/widget/list?regionId=200&color=b&open=all"></iframe>
-    <a href="https://www.onthesnow.ca/quebec/skireport.html" target="_blank">Powered by OnTheSnow.com</a>
+    <a id="button" href="https://www.onthesnow.ca/quebec/skireport.html" target="_blank">Powered by OnTheSnow.com</a>
   </section>
 
-
   <footer>
-      <p>A person should have wings to carry them where their dreams go, but sometimes a pair of skis makes a good substitute.<br>Hans Gmoser</p>
+      <p>A person should have wings to carry them where their dreams go, but sometimes a pair of skis makes a good substitute.<br><br>Hans Gmoser</p>
   </footer>
+
+  <script>
+  $(document).ready(function(){
+    $.snowfall.start();
+  });
+  </script>
 
 </body>
 </html>
