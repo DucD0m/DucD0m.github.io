@@ -52,6 +52,11 @@ nav{
   background-color: #8b0000;
 }
 
+a{
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
 nav a {
   display: block;
   color: white;
@@ -63,8 +68,9 @@ nav a {
 }
 
 .active{
-  border-left: solid #000000 15px;
-  padding-right: 15px;
+  /*border-left: solid #000000 25px;
+  padding-right: 25px;*/
+  color: #000000;
 }
 
 hr {
@@ -94,7 +100,7 @@ img{
   border: solid #444444 3px;
 }
 
-img:hover{
+img:hover, img:focus{
   border: solid #000000 3px;
   cursor: pointer;
   opacity: 0.9;
@@ -227,6 +233,11 @@ footer{
     height: 75vh;
   }
 
+  #o21803{
+    width: 65vw;
+    height: 62vh;
+  }
+
   footer{
     height: 20vh;
   }
@@ -262,8 +273,6 @@ footer{
     border-radius: 25px;
     margin-top: 3vh;
   }
-
-
 }
 
 @media screen and (pointer: fine){
