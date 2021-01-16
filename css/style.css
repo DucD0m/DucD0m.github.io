@@ -60,7 +60,7 @@ a{
 
 nav a {
   display: block;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding-top: 3vh;
   text-decoration: none;
@@ -69,9 +69,10 @@ nav a {
 }
 
 .active{
-  /*border-left: solid #000000 25px;
-  padding-right: 25px;*/
-  color: #000000;
+  border-left: solid #000000 20px;
+  padding-right: 20px;
+  /*color: #000000;
+  background-color: #000000;*/
 }
 
 hr {
